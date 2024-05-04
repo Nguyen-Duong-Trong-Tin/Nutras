@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+:root {
+  --color-one: #0A4D3C;
+  --color-two: #FFA300;
+  --color-three: #2C241B;
+  --background-color-one: #F8F6F4;
+  --color-text: #52565B;
+  --font-one: "Montserrat", sans-serif;
+  --font-two: "Playfair Display", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-one);
+  color: var(--color-text);
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button--sign-up {
+  background-color: var(--color-one);
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+}
+.button--sign-up:hover {
+  background-color: var(--color-two);
+}
+.button--dropdown {
+  border: none;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.button--dropdown:hover {
+  color: var(--color-two);
+}
+.button--close {
+  background-color: var(--color-two);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.button--start-course {
+  background-color: var(--color-two);
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px;
+  width: 200px;
+}
+.button--start-course:hover {
+  background-color: var(--color-one);
+}
+.button--arrow-right {
+  border: none;
+  border-radius: 50%;
+  background-color: var(--color-two);
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=base.css.map */
