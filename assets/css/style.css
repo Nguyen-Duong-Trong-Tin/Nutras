@@ -265,5 +265,554 @@
     font-size: 36px;
   }
 }
+.fitness-course {
+  padding: 80px 0;
+}
+.fitness-course__box-head {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.fitness-course__subtitle {
+  font-weight: bold;
+  color: var(--color-one);
+}
+.fitness-course__title {
+  font-family: var(--font-two);
+  font-weight: 600;
+  color: var(--color-three);
+  font-size: 48px;
+}
+.fitness-course__box {
+  box-shadow: 1px 1px 1px 1px var(--color-one);
+}
+.fitness-course__box--four, .fitness-course__box--five, .fitness-course__box--six {
+  margin-top: 30px;
+}
+.fitness-course__content {
+  padding: 10px;
+}
+.fitness-course__inner-img {
+  position: relative;
+  margin-bottom: 50px;
+}
+.fitness-course__img {
+  width: 100%;
+}
+.fitness-course__inner-price {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 40px);
+  margin-bottom: -40px;
+  background-color: var(--color-one);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fitness-course__price {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.fitness-course__price::before {
+  content: "$";
+}
+.fitness-course__author a {
+  color: var(--color-three);
+  font-weight: 600;
+}
+.fitness-course__author a:hover {
+  color: var(--color-two);
+}
+.fitness-course__box-title {
+  font-family: var(--font-two);
+  height: 80px;
+}
+.fitness-course__box-title a {
+  color: var(--color-three);
+}
+.fitness-course__box-title a:hover {
+  color: var(--color-two);
+}
+.fitness-course__meta {
+  display: flex;
+}
+.fitness-course__time, .fitness-course__lectures {
+  color: var(--color-two);
+}
+.fitness-course__lectures::before {
+  content: "\f111";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 10px;
+  color: var(--color-three);
+}
+
+@media (max-width: 991.98px) {
+  .fitness-course__box--three {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  .fitness-course__box-title {
+    height: 100px;
+  }
+  .fitness-course__lectures::before {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 575.98px) {
+  .fitness-course__title {
+    font-size: 36px;
+  }
+  .fitness-course__box--two {
+    margin-top: 30px;
+  }
+}
+.client {
+  padding: 80px 0;
+  background-color: var(--color-one);
+}
+.client .container {
+  position: relative;
+}
+.client .shape--three, .client .shape--four {
+  top: 0;
+  position: absolute;
+  transition: top 2s ease;
+}
+.client .shape--four {
+  right: 0;
+}
+.client .move {
+  top: 200px;
+}
+.client__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.client__subtitle {
+  color: var(--color-two);
+  font-weight: bold;
+  z-index: 1;
+}
+.client__title {
+  font-family: var(--font-two);
+  color: #ffffff;
+  font-size: 48px;
+  z-index: 1;
+}
+.client__inner-img {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.client__inner-img::after {
+  position: absolute;
+  bottom: 0;
+  right: calc(50% - 22px);
+  margin-bottom: -40px;
+  content: "\f10d";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  color: var(--color-two);
+  font-size: 48px;
+}
+.client__img {
+  border-radius: 50%;
+  width: 100%;
+}
+.client__desc {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  z-index: 1;
+}
+.client__author {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 30px;
+  z-index: 1;
+}
+.client__position {
+  color: var(--color-two);
+  font-size: 14px;
+  z-index: 1;
+}
+
+@media (max-width: 767.98px) {
+  .client__title {
+    font-size: 36px;
+  }
+  .client__desc {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 575.98px) {
+  .client__title {
+    font-size: 24px;
+  }
+  .client__desc {
+    font-size: 14px;
+  }
+}
+.brand {
+  padding: 80px 0;
+}
+.brand .container {
+  background-color: var(--background-color-one);
+}
+.brand__content {
+  padding: 80px;
+  text-align: center;
+}
+.brand__subtitle {
+  color: var(--color-one);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.brand__title {
+  font-family: var(--font-two);
+  color: var(--color-three);
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.brand__desc {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+.brand__card {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  overflow: hidden;
+}
+.brand__cart-item {
+  display: flex;
+  flex-direction: column;
+}
+.brand__cart-item:hover .brand__img--one {
+  margin-top: -150px;
+}
+.brand__img--one {
+  margin-top: 0;
+  margin-bottom: 10px;
+  transition: margin-top 0.5s ease;
+}
+
+@media (max-width: 991.98px) {
+  .brand__cart-item--four {
+    display: none;
+  }
+  .brand__cart-item--five {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .brand__cart-item--three {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .brand__title {
+    font-size: 36px;
+  }
+  .brand__cart-item--two {
+    display: none;
+  }
+}
+.blog {
+  padding: 80px 0;
+}
+.blog__head {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.blog__subtitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.blog__title {
+  font-family: var(--font-two);
+  font-weight: 600;
+  font-size: 48px;
+}
+.blog__box {
+  padding: 50px 30px;
+  background-color: var(--background-color-one);
+}
+.blog__info {
+  display: flex;
+}
+.blog__date {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-one);
+  width: 80px;
+  height: 80px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.blog__date span {
+  color: var(--color-two);
+  font-size: 22px;
+  font-weight: bold;
+}
+.blog__author {
+  font-weight: 600;
+}
+.blog__author span {
+  font-size: 14px;
+}
+.blog__author a {
+  color: var(--color-three);
+  font-size: 18px;
+}
+.blog__course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog__react {
+  margin-top: 10px;
+  display: flex;
+  color: var(--color-two);
+}
+.blog__likes {
+  font-size: 14px;
+}
+.blog__likes::after {
+  margin-left: 5px;
+  content: "Likes";
+}
+.blog__share {
+  font-size: 14px;
+}
+.blog__share::before {
+  content: "\f111";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 10px;
+  color: var(--color-three);
+}
+.blog__share::after {
+  margin-left: 5px;
+  content: "Share";
+}
+.blog__box-title {
+  margin-top: 30px;
+  font-family: var(--font-two);
+  font-weight: 600;
+}
+.blog__desc {
+  text-align: justify;
+}
+
+@media (max-width: 991.98px) {
+  .blog__box--two, .blog__box--three {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 575.98px) {
+  .blog__title {
+    font-size: 36px;
+  }
+  .blog__box-title {
+    height: 100px;
+  }
+  .blog__desc {
+    height: 120px;
+  }
+}
+.download {
+  padding: 80px 0;
+}
+.download .container {
+  background-color: var(--color-two);
+  padding: 80px;
+}
+.download__content {
+  text-align: center;
+}
+.download__subtitle {
+  color: var(--color-one);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.download__title {
+  font-family: var(--font-two);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+.download__inner-img {
+  display: flex;
+  justify-content: center;
+}
+.download__img {
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px var(--color-one);
+  width: 175px;
+}
+.download__img:nth-child(1) {
+  margin-right: 30px;
+}
+.download__img img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .download__title {
+    font-size: 36px;
+  }
+  .download__inner-img {
+    flex-wrap: wrap;
+  }
+  .download__img:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+.footer-top {
+  position: relative;
+  padding: 80px 0;
+  background-color: var(--color-one);
+}
+.footer-top .shape--five {
+  margin-top: -50px;
+  position: absolute;
+}
+.footer-top .shape--six {
+  bottom: 0;
+  right: 100px;
+  position: absolute;
+}
+.footer-top__title {
+  color: var(--color-two);
+  margin-bottom: 30px;
+}
+.footer-top__desc {
+  color: #ffffff;
+}
+.footer-top__desc a {
+  color: #ffffff;
+}
+.footer-top__desc:hover a {
+  color: var(--color-two);
+}
+.footer-top__input {
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.footer-top .button:hover {
+  background-color: #ffffff;
+  color: var(--color-three);
+}
+
+@media (max-width: 991.98px) {
+  .footer-top__box--one {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer-top__desc {
+    font-size: 14px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer-top__box--four {
+    margin-top: 30px;
+  }
+  .footer-top .button {
+    width: 150px;
+    font-size: 16px;
+  }
+}
+.footer-bottom {
+  padding: 20px 0;
+  background-color: var(--background-color-two);
+}
+.footer-bottom__content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.footer-bottom__desc {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.footer-bottom__desc span {
+  color: var(--color-two);
+}
+.footer-bottom__desc a {
+  color: var(--color-two);
+}
+.footer-bottom__desc:hover a {
+  text-decoration: underline;
+}
+.footer-bottom__list {
+  list-style-type: none;
+  display: flex;
+}
+.footer-bottom__list li a {
+  color: #ffffff;
+}
+.footer-bottom__list li:nth-child(1)::before {
+  content: "";
+}
+.footer-bottom__list li::before {
+  color: #ffffff;
+  content: "*";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.footer-bottom__list li:hover a {
+  color: var(--color-two);
+}
+
+@media (max-width: 991.98px) {
+  .footer-bottom__content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-bottom__box:nth-child(2) {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer-bottom__desc {
+    font-size: 14px;
+  }
+  .footer-bottom__list li {
+    font-size: 12px;
+  }
+  .footer-bottom__list li::before {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

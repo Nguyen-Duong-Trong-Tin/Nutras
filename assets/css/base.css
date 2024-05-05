@@ -4,6 +4,7 @@
   --color-two: #FFA300;
   --color-three: #2C241B;
   --background-color-one: #F8F6F4;
+  --background-color-two: #094435;
   --color-text: #52565B;
   --font-one: "Montserrat", sans-serif;
   --font-two: "Playfair Display", serif;
@@ -31,6 +32,21 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.back-to-top {
+  background-color: var(--color-two);
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
 }
 
 .button--sign-up {
@@ -64,7 +80,7 @@ a {
   font-weight: 600;
   color: #ffffff;
 }
-.button--start-course {
+.button--start {
   background-color: var(--color-two);
   border: none;
   border-radius: 20px;
@@ -74,7 +90,7 @@ a {
   padding: 15px;
   width: 200px;
 }
-.button--start-course:hover {
+.button--start:hover {
   background-color: var(--color-one);
 }
 .button--arrow-right {
